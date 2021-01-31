@@ -1,0 +1,13 @@
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.exe
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.deps.json
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.runtimeconfig.json
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.runtimeconfig.dev.json
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.dll
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\snake1.pdb
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.csprojAssemblyReference.cache
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.AssemblyInfoInputs.cache
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.AssemblyInfo.cs
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.csproj.CoreCompileInputs.cache
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.dll
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.pdb
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.genruntimeconfig.cache
