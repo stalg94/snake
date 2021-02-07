@@ -4,17 +4,16 @@ using System.Text;
 
 namespace snake1
 {
-    class Point
+    class point1
     {
         public int x;
         public int y;
         public char sym;
 
-        public Point()
+        public point1()
         {
-            Console.Write("tuleb uus märk");
         }
-        public  Point(int _x, int _y, char _sym)
+        public  point1(int _x, int _y, char _sym)
         {
             x = _x;
             y = _y;
