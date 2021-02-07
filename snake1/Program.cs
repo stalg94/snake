@@ -14,23 +14,28 @@ namespace snake1
             point1 p2 = new point1(4, 5, '#');
             p2.Draw();
 
-            List<int> num = new List<int>();
-            num.Add(0);
-            num.Add(1);
-            num.Add(2);
+            //List<int> num = new List<int>();
+            //num.Add(0);
+            //num.Add(1);
+            //num.Add(2);
 
-            int x = num[0];
-            int y = num[1];
-            int z = num[2];
+            //int x = num[0];
+            //int y = num[1];
+            //int z = num[2];
 
-            foreach(int i in num)
-            {
-                Console.WriteLine(i);
-            }
+            //foreach(int i in num)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //num.RemoveAt(0);
 
 
-            //HorisontalLine line = new HorisontalLine();
-            //line.Draw();
+            HorisontalLine line = new HorisontalLine(5,10,8,'+');
+            line.Drow();
+            VerticalLine line1 = new VerticalLine(5, 10, '*');
+            line1.Drow();
+
+
 
             Console.ReadLine();
         }
