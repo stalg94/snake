@@ -40,6 +40,12 @@ namespace snake1
             }
         }
 
+        internal void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
+
         public point1(point1 p)
         {
             x = p.x;

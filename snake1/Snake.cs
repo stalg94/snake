@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace snake1
 {
     class Snake: Figure
     {
+        Direction direction;
 
         public Snake(point1 tail, int length, Direction direction)
         {
@@ -17,6 +19,25 @@ namespace snake1
                 p.Move(i, direction);
                 pList.Add(p);
             }
+        }
+
+        internal void Move()
+        {
+            point1 tail = pList.First();
+            pList.Remove(tail);
+            point1 head = GetNextPoint();
+            pList.Add(head);
+
+            tail.Clear();
+            head.Draw();
+        }
+
+        public point1 GetNextPoint()
+        {
+            point1 head = pList.Last();
+            point1 nextPoint = new point1(head);
+            nextPoint.Move(1, direction);
+            return nextPoint;
         }
     }
 }
