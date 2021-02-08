@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "KJHqbLzOnOSSmpp+BolHXJyJN+7nP2CJGuDlRpk/Lgm4WQ2dAvYLNXFUZxyKG5zzStfw+ai1lm+VQ5d9jDikvg==",
+  "dgSpecHash": "JmnmF9kTPbr8EmpwBbjgDP06w1lyUirMdd4IBr+DPAAZ5JK3jiDOh4u+SWClejdbMTb/oLoiU246i+PV43tlaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\stalg\\source\\repos\\ConsoleApp1\\snake\\snake1\\snake1.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\stalg\\.nuget\\packages\\wmplib\\1.0.0\\wmplib.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WMPLib 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "WMPLib",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

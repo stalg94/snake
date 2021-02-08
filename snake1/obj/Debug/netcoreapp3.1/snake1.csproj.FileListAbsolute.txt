@@ -11,3 +11,6 @@ C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\sna
 C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.dll
 C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.pdb
 C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.genruntimeconfig.cache
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\AxInterop.WMPLib.dll
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\bin\Debug\netcoreapp3.1\Interop.WMPLib.dll
+C:\Users\stalg\source\repos\ConsoleApp1\snake\snake1\obj\Debug\netcoreapp3.1\snake1.csproj.CopyComplete

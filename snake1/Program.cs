@@ -5,14 +5,14 @@ namespace snake1
 {
     class Program
     {
-#pragma warning disable IDE0060 // Remove unused parameter
+
         static void Main(string[] args)
-#pragma warning restore IDE0060 // Remove unused parameter
         {
-            point1 p1 = new point1(1, 3, '*');
-            p1.Draw();
-            point1 p2 = new point1(4, 5, '#');
-            p2.Draw();
+
+            //point1 p1 = new point1(1, 3, '*');
+            //p1.Draw();
+            //point1 p2 = new point1(4, 5, '#');
+            //p2.Draw();
 
             //List<int> num = new List<int>();
             //num.Add(0);
@@ -28,16 +28,21 @@ namespace snake1
             //    Console.WriteLine(i);
             //}
             //num.RemoveAt(0);
-
-
-            HorisontalLine line = new HorisontalLine(5,10,8,'+');
-            line.Drow();
-            VerticalLine line1 = new VerticalLine(5, 10, '*');
-            line1.Drow();
+            Console.SetWindowSize(80, 25);
 
 
 
-            Console.ReadLine();
+            HorisontalLine upLine = new HorisontalLine(0, 78,0,'*');
+            HorisontalLine downLine = new HorisontalLine(0,78,24, '*');
+            VerticalLine leftLine = new VerticalLine(0, 24, 0, '*');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '*');
+            upLine.Drow();
+            downLine.Drow();
+            leftLine.Drow();
+            rightLine.Drow();
+
+            point1 p = new point1(4, 5, '+');
+            p.Draw();
         }
 
     }
