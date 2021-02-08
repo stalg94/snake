@@ -8,7 +8,7 @@ namespace snake1
     {
         RIGHT,
         LEFT,
-        UP,
-        DOWN
+        DOWN,
+        UP
     }
 }
